@@ -1,0 +1,6 @@
+Single element
+INPUT:
+1
+42
+EXPECTED:
+42

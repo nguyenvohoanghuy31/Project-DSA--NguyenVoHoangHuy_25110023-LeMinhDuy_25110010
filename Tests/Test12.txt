@@ -1,0 +1,4 @@
+Negative number of elements
+INPUT:
+-3
+EXPECTED:

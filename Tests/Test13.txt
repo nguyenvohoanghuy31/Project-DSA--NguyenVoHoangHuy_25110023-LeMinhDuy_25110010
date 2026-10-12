@@ -1,0 +1,5 @@
+Single negative element
+INPUT:
+1
+-1
+EXPECTED:

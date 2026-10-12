@@ -1,0 +1,5 @@
+Empty array
+INPUT:
+0
+
+EXPECTED:

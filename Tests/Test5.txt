@@ -1,0 +1,6 @@
+All values identical
+INPUT:
+6
+7 7 7 7 7 7
+EXPECTED:
+7 7 7 7 7 7
