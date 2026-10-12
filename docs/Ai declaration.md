@@ -29,4 +29,4 @@ Chạy `counting_sort.cpp` với các bộ test trên và đối chiếu kết q
 ## 6. Liên kết minh chứng
 
 - Code: [counting_sort.cpp](https://github.com/nguyenvohoanghuy31/Project-DSA--NguyenVoHoangHuy_25110023-LeMinhDuy_25110010/blob/main/counting_sort.cpp)
-- Bộ test: [thư mục Tests](https://github.com/nguyenvohoanghuy31/Project-DSA--NguyenVoHoangHuy_25110023-LeMinhDuy_25110010/tree/main/Tests)
+- Bộ test: [thư mục Tests](https://github.com/nguyenvohoanghuy31/Project-DSA--NguyenVoHoangHuy_25110023-LeMinhDuy_25110010/tree/main/Tests).
