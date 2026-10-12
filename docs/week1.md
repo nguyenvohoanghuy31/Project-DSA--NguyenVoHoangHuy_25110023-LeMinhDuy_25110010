@@ -1,49 +1,49 @@
-# Báo cáo tuần 1: Counting Sort
+# Week 1 Report: Counting Sort
 
-## 1. Thuật toán
+## 1. Algorithm
 
-Code Counting Sort dùng một mảng đếm `cnt`, trong đó **chỉ số là giá trị phần tử**.
+The Counting Sort code uses a count array `cnt`, where the **index is the element's value**.
 
-Các bước thực hiện:
+Steps:
 
-1. Đếm số lần xuất hiện của từng giá trị trong mảng đầu vào.
-2. Duyệt các giá trị từ nhỏ đến lớn.
-3. Ghi lại từng giá trị vào mảng kết quả theo đúng số lần đã đếm.
+1. Count the number of occurrences of each value in the input array.
+2. Traverse the values from smallest to largest.
+3. Write each value back into the result array according to the counted number of times.
 
-## 2. Độ phức tạp
+## 2. Complexity
 
-| Tiêu chí  | Giá trị  |
-| --------- | -------- |
-| Thời gian | O(n + k) |
+| Criterion | Value  |
+| --------- | ------ |
+| Time      | O(n + k) |
 
-Trong đó `n` là số phần tử của mảng và `k` là khoảng giá trị của phần tử (kích thước mảng đếm `cnt`).
+Where `n` is the number of elements in the array and `k` is the range of element values (the size of the count array `cnt`).
 
-## 3. Test
+## 3. Testing
 
-### 3.1. Ví dụ bình thường
+### 3.1. Normal example
 
-Mảng có nhiều giá trị khác nhau, có thể trùng nhau, được sắp xếp tăng dần đúng kết quả.
+An array with several different values, possibly with duplicates, is sorted in ascending order with the correct result.
 
-### 3.2. Trường hợp biên
+### 3.2. Edge cases
 
-| STT | Trường hợp                 |
-| --- | -------------------------- |
-| 1   | Mảng rỗng                  |
-| 2   | Mảng có 1 phần tử          |
-| 3   | Toàn bộ giá trị trùng nhau |
-| 4   | Mảng đã sắp xếp tăng       |
-| 5   | Mảng sắp xếp giảm          |
-| 6   | Giá trị 0 và 1.000.000     |
+| No. | Case                      |
+| --- | ------------------------- |
+| 1   | Empty array               |
+| 2   | Array with 1 element      |
+| 3   | All values identical      |
+| 4   | Already sorted ascending  |
+| 5   | Sorted descending         |
+| 6   | Values 0 and 1,000,000    |
 
-### 3.3. Đầu vào sai
+### 3.3. Invalid input
 
-| STT | Trường hợp                 |
-| --- | -------------------------- |
-| 1   | Số âm                      |
-| 2   | Giá trị vượt quá 1.000.000 |
-| 3   | Số phần tử âm              |
+| No. | Case                         |
+| --- | ---------------------------- |
+| 1   | Negative number              |
+| 2   | Value exceeding 1,000,000    |
+| 3   | Negative number of elements  |
 
-### 3.4. Input lớn
+### 3.4. Large input
 
-- `n = 1.000.000`
-- Giá trị ngẫu nhiên trong khoảng `[0, 1000]`
+- `n = 1,000,000`
+- Random values in the range `[0, 1000]`
