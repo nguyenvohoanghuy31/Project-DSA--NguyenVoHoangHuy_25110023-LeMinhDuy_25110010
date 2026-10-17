@@ -48,3 +48,6 @@ An array with several different values, possibly with duplicates, is sorted in a
 
 - `n = 1,000,000`
 - Random values in the range `[0, 1000000]`
+## 4. Test Generation
+
+No AI tools were used to generate tests this week. The tests in Section 3 are reused from the Week 1 report (Counting Sort), since both algorithms process the same kind of input (non-negative integers in the range `[0, 1000000]`) and share the same edge cases, invalid inputs, and large-input scenario.
