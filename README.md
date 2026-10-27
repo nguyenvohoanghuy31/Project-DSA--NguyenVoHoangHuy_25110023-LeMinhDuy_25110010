@@ -23,7 +23,7 @@
 | Thành viên          | Công việc                                         |
 | ------------------- | ------------------------------------------------- |
 | Nguyễn Võ Hoàng Huy | Cài Quick Sort, tạo dữ liệu test, so sánh Counting Sort với Quick Sort |
-| Lê Minh Duy         | Sửa Radix Sort, so sánh Radix Sort với Quick Sort, viết hướng dẫn build/run |
+| Lê Minh Duy         | so sánh Radix Sort với Quick Sort, viết hướng dẫn build/run |
 | Cả hai              | Chọn một ví dụ tính tay và đối chiếu với kết quả chương trình |
 
 ### Tuần 4
