@@ -32,4 +32,4 @@
 | ------------------- | ------------------------------------------------- |
 | Nguyễn Võ Hoàng Huy | Viết bảng số liệu và nhận xét về Counting Sort, giải thích vì sao không bị chặn bởi n log n |
 | Lê Minh Duy         | Viết phần tính ổn định và nhận xét về Radix Sort |
-| Cả hai              | Viết tự giải trình, AI Usage Log|
+| Cả hai              | Viết tự giải trình|
