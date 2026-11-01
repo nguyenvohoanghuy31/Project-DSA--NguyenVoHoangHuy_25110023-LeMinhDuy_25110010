@@ -1,0 +1,15 @@
+# Self-Reflection
+ 
+## Nguyễn Võ Hoàng Huy (25110023)
+ 
+**What I did:** implemented Quick Sort, created the test data, compared Counting Sort with Quick Sort, and wrote the data tables and analysis for Counting Sort.
+ 
+**What I understood:**
+ 
+- Counting Sort does not compare elements; it uses the values as indices into a counting array, so it is not bounded below by n log n like comparison-based algorithms. Its complexity is O(n + k).
+- The algorithm is only efficient when k is not too large relative to n.
+- Actual running time also depends on the cache: with the same n and k, random data is slower than already sorted data even though in theory they are the same.
+**Difficulties and how I handled them:**
+ 
+- Choosing measurement data fairly: I used the same dataset for both algorithms, ran each several times and took the average, and checked the results against `std::sort`.
+**AI usage:** Used Claude to suggest test sets (weeks 1, 3 and 4).
