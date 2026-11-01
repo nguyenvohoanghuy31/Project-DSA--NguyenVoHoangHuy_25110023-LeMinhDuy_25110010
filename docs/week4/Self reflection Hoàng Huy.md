@@ -13,3 +13,7 @@
  
 - Choosing measurement data fairly: I used the same dataset for both algorithms, ran each several times and took the average, and checked the results against `std::sort`.
 **AI usage:** Used Claude to suggest test sets (weeks 1, 3 and 4).
+## Joint work
+ 
+- Chose one hand-calculated example and compared it with the program's output (`docs/week3/hand-calculated.md`).
+- Agreed on a shared set of test data for both comparisons.
